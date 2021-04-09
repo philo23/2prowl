@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Philip Pryce</string>
+	<key>Builder Version</key>
+	<string>8536.25</string>
+	<key>CFBundleDisplayName</key>
+	<string>2Prowl</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.philip.safari.twoprowl</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.9.4</string>
+	<key>CFBundleVersion</key>
+	<string>28</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>send-page</string>
+				<key>Idenfier</key>
+				<string>send</string>
+				<key>Identifier</key>
+				<string>send</string>
+				<key>Image</key>
+				<string>send.png</string>
+				<key>Label</key>
+				<string>2Prowl</string>
+				<key>Palette Label</key>
+				<string>2Prowl</string>
+				<key>Tool Tip</key>
+				<string>Send URL via 2Prowl</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>inject.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://*/*</string>
+			<string>https://*/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Sends the current webpage to your iOS devices using Prowl.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://dreamtbyphil.co.uk/extensions/updates.plist</string>
+	<key>Website</key>
+	<string>http://dreamtbyphil.co.uk/extensions/</string>
+</dict>
+</plist>
